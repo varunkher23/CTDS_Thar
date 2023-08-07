@@ -1,0 +1,457 @@
+"","Region.Label","Sample.Label","DateTimeOriginal","Species","size","distance","DN","Effort","Defunct_time","Area","diff"
+"1","Chouhani_Inside","Cha_10",NA,NA,NA,NA,NA,1773435,0,1,NA
+"2","Chouhani_Inside","Cha_15",2017-12-06 13:00:16,"DOG",1,3,"Day",1771138,0,1,0
+"3","Chouhani_Inside","Cha_16",NA,NA,NA,NA,NA,1767677,0,1,NA
+"4","Chouhani_Inside","Cha_19",NA,NA,NA,NA,NA,1163766,1205042,1,NA
+"5","Chouhani_Inside","Cha_20",NA,NA,NA,NA,NA,1769091,0,1,NA
+"6","Chouhani_Inside","Cha_22",2017-12-23 16:57:43,"DOG",1,3,"Day",1769791,0,1,0
+"7","Chouhani_Inside","Cha_23",2017-12-26 04:18:24,"DOG",1,3,"Night",1800164,0,1,0
+"8","Chouhani_Inside","Cha_25",NA,NA,NA,NA,NA,1774606,0,1,NA
+"9","Chouhani_Inside","Cha_26",NA,NA,NA,NA,NA,1768052,0,1,NA
+"10","Chouhani_Inside","Cha_27",NA,NA,NA,NA,NA,1798021,0,1,NA
+"11","Chouhani_Inside","Cha_28",NA,NA,NA,NA,NA,1798581,0,1,NA
+"12","Chouhani_Inside","Cha_29",NA,NA,NA,NA,NA,1810494,0,1,NA
+"13","Chouhani_Inside","Cha_31-36",NA,NA,NA,NA,NA,1776357,0,1,NA
+"14","Chouhani_Inside","Cha_32",NA,NA,NA,NA,NA,1579387,438661,1,NA
+"15","Chouhani_Inside","Cha_33",NA,NA,NA,NA,NA,1799531,0,1,NA
+"16","Chouhani_Inside","Cha_34",NA,NA,NA,NA,NA,1805278,0,1,NA
+"17","Gajaimata_Inside","G200",NA,NA,NA,NA,NA,1908744,0,1,NA
+"18","Gajaimata_Inside","G202",NA,NA,NA,NA,NA,835827,1535881,1,NA
+"19","Gajaimata_Inside","G203",2017-02-22 09:36:06,"DOG",1,NA,"Day",1945446,0,1,0
+"20","Gajaimata_Inside","G203",2017-03-06 13:34:36,"DOG",1,1.116672801,"Day",1945446,0,1,1051110
+"21","Gajaimata_Inside","G203",2017-03-06 13:37:24,"DOG",1,NA,"Day",1945446,0,1,168
+"22","Gajaimata_Inside","G203",2017-03-20 07:42:14,"DOG",1,2.834630956,"Day",1945446,0,1,1188290
+"23","Gajaimata_Inside","G207",NA,NA,NA,NA,NA,1512066,862501,1,NA
+"24","Gajaimata_Inside","G208",NA,NA,NA,NA,NA,1934659,0,1,NA
+"25","Gajaimata_Inside","G209",NA,NA,NA,NA,NA,1945040,0,1,NA
+"26","Gajaimata_Inside","G210",NA,NA,NA,NA,NA,1910826,0,1,NA
+"27","Gajaimata_Inside","G211",2017-03-08 14:24:35,"DOG",1,7.462022001,"Day",1952026,0,1,0
+"28","Gajaimata_Inside","G211",2017-03-08 14:24:37,"DOG",1,NA,"Day",1952026,0,1,2
+"29","Gajaimata_Inside","G211",2017-03-08 14:24:39,"DOG",1,NA,"Day",1952026,0,1,2
+"30","Gajaimata_Inside","G211",2017-03-08 14:24:41,"DOG",1,NA,"Day",1952026,0,1,2
+"31","Gajaimata_Inside","G211",2017-03-17 06:44:29,"DOG",1,NA,"Night",1952026,0,1,749988
+"32","Gajaimata_Inside","G212",2017-03-09 07:00:45,"DOG",1,6.306818182,"Night",1949901,0,1,0
+"33","Gajaimata_Inside","G212",2017-03-09 07:00:47,"DOG",1,NA,"Night",1949901,0,1,2
+"34","Gajaimata_Inside","G212",2017-03-09 07:00:49,"DOG",1,NA,"Night",1949901,0,1,2
+"35","Gajaimata_Inside","G213",NA,NA,NA,NA,NA,1910766,0,1,NA
+"36","Gajaimata_Inside","G214",NA,NA,NA,NA,NA,1669601,45781,1,NA
+"37","Gajaimata_Inside","G215",NA,NA,NA,NA,NA,1951617,0,1,NA
+"38","Gajaimata_Inside","G216",2017-03-12 08:20:06,"DOG",1,2.172091372,"Day",1912468,0,1,0
+"39","Gajaimata_Inside","G216",2017-03-12 08:20:08,"DOG",1,NA,"Day",1912468,0,1,2
+"40","Gajaimata_Inside","G216",2017-03-12 08:20:10,"DOG",1,NA,"Day",1912468,0,1,2
+"41","Gajaimata_Inside","G216",2017-03-12 08:20:14,"DOG",1,NA,"Day",1912468,0,1,4
+"42","Gajaimata_Inside","G217",NA,NA,NA,NA,NA,1913513,0,1,NA
+"43","Gajaimata_Inside","G218",NA,NA,NA,NA,NA,781514,2265602,1,NA
+"44","Gajaimata_PPC_Inside","GAJ_1",NA,NA,NA,NA,NA,1645026,0,1,NA
+"45","Gajaimata_PPC_Inside","GAJ_12",NA,NA,NA,NA,NA,1642276,0,1,NA
+"46","Gajaimata_PPC_Inside","GAJ_13",NA,NA,NA,NA,NA,1508085,0,1,NA
+"47","Gajaimata_PPC_Inside","GAJ_20",NA,NA,NA,NA,NA,1645286,0,1,NA
+"48","Gajaimata_PPC_Inside","GAJ_21",NA,NA,NA,NA,NA,1607204,0,1,NA
+"49","Gajaimata_PPC_Inside","GAJ_5",NA,NA,NA,NA,NA,1643247,0,1,NA
+"50","Gajaimata_PPC_Inside","GAJ_6",NA,NA,NA,NA,NA,1644451,0,1,NA
+"51","Gajaimata_PPC_Inside","GAJ_7",NA,NA,NA,NA,NA,1552826,0,1,NA
+"52","Kanoi_Inside","K1010",2017-04-29 07:05:52,"DOG",1,2.559617548,"Day",1507569,0,1,0
+"53","Kanoi_Inside","K1011",NA,NA,NA,NA,NA,99953,2985661,1,NA
+"54","Kanoi_Inside","K743",NA,NA,NA,NA,NA,1509473,0,1,NA
+"55","Kanoi_Inside","K781",NA,NA,NA,NA,NA,275326,726421,1,NA
+"56","Kanoi_Inside","K781_2",NA,NA,NA,NA,NA,712447,0,1,NA
+"57","Kanoi_Inside","K782",NA,NA,NA,NA,NA,1496658,0,1,NA
+"58","Kanoi_Inside","K783",NA,NA,NA,NA,NA,1551998,0,1,NA
+"59","Kanoi_Inside","K819",NA,NA,NA,NA,NA,1292812,0,1,NA
+"60","Kanoi_Inside","K820",NA,NA,NA,NA,NA,1437361,0,1,NA
+"61","Kanoi_Inside","K821",NA,NA,NA,NA,NA,1148980,0,1,NA
+"62","Kanoi_Inside","K822",NA,NA,NA,NA,NA,1171654,0,1,NA
+"63","Kanoi_Inside","K826",2017-05-06 06:31:17,"DOG",1,NA,"Day",1461923,0,1,0
+"64","Kanoi_Inside","K826",2017-05-06 06:31:19,"DOG",1,NA,"Day",1461923,0,1,2
+"65","Kanoi_Inside","K826",2017-05-06 06:31:21,"DOG",1,NA,"Day",1461923,0,1,2
+"66","Kanoi_Inside","K826",2017-05-06 06:31:23,"DOG",1,NA,"Day",1461923,0,1,2
+"67","Kanoi_Inside","K826",2017-05-06 06:31:27,"DOG",1,NA,"Day",1461923,0,1,4
+"68","Kanoi_Inside","K827",NA,NA,NA,NA,NA,1127424,61,1,NA
+"69","Kanoi_Inside","K855",NA,NA,NA,NA,NA,1506625,0,1,NA
+"70","Kanoi_Inside","K856",NA,NA,NA,NA,NA,1536757,28981,1,NA
+"71","Kanoi_Inside","K857",NA,NA,NA,NA,NA,1173862,0,1,NA
+"72","Kanoi_Inside","K858",NA,NA,NA,NA,NA,1534223,0,1,NA
+"73","Kanoi_Inside","K859",NA,NA,NA,NA,NA,1535704,0,1,NA
+"74","Kanoi_Inside","K860",NA,NA,NA,NA,NA,1543936,0,1,NA
+"75","Kanoi_Inside","K861",NA,NA,NA,NA,NA,1448540,0,1,NA
+"76","Kanoi_Inside","K893",NA,NA,NA,NA,NA,1505869,0,1,NA
+"77","Kanoi_Inside","K894",NA,NA,NA,NA,NA,1410241,0,1,NA
+"78","Kanoi_Inside","K896",NA,NA,NA,NA,NA,1391552,293281,1,NA
+"79","Kanoi_Inside","K897",NA,NA,NA,NA,NA,866116,1382341,1,NA
+"80","Kanoi_Inside","K898",NA,NA,NA,NA,NA,853898,0,1,NA
+"81","Kanoi_Inside","K902",NA,NA,NA,NA,NA,1544745,0,1,NA
+"82","Kanoi_Inside","K931",NA,NA,NA,NA,NA,1487404,0,1,NA
+"83","Kanoi_Inside","K932",NA,NA,NA,NA,NA,1361694,0,1,NA
+"84","Kanoi_Inside","K933",NA,NA,NA,NA,NA,1462677,0,1,NA
+"85","Kanoi_Inside","K934",NA,NA,NA,NA,NA,460803,264061,1,NA
+"86","Kanoi_Inside","K939",NA,NA,NA,NA,NA,779455,0,1,NA
+"87","Kanoi_Inside","K968",2017-04-07 07:21:41,"DOG",1,NA,"Day",977647,0,1,0
+"88","Kanoi_Inside","K968",2017-04-07 07:21:43,"DOG",1,NA,"Day",977647,0,1,2
+"89","Kanoi_Inside","K968",2017-04-07 07:21:45,"DOG",1,NA,"Day",977647,0,1,2
+"90","Kanoi_Inside","K968",2017-04-25 08:14:27,"DOG",1,NA,"Day",977647,0,1,1558362
+"91","Kanoi_Inside","K969",NA,NA,NA,NA,NA,1156864,0,1,NA
+"92","Kanoi_Inside","K974",NA,NA,NA,NA,NA,1538690,0,1,NA
+"93","Kanoi_Inside","K975",NA,NA,NA,NA,NA,1505542,0,1,NA
+"94","Kanoi_Inside","K976",2017-04-25 07:23:24,"DOG",1,NA,"Day",1034322,0,1,0
+"95","Miajlar_Inside","Mia 1",NA,NA,NA,NA,NA,1289910,234781,1,NA
+"96","Miajlar_Inside","Mia 10",NA,NA,NA,NA,NA,1360443,0,1,NA
+"97","Miajlar_Inside","Mia 12",NA,NA,NA,NA,NA,1406432,61,1,NA
+"98","Miajlar_Inside","Mia 13",NA,NA,NA,NA,NA,1402243,0,1,NA
+"99","Miajlar_Inside","Mia 14",NA,NA,NA,NA,NA,1380550,0,1,NA
+"100","Miajlar_Inside","Mia 15",NA,NA,NA,NA,NA,1343850,0,1,NA
+"101","Miajlar_Inside","Mia 16",NA,NA,NA,NA,NA,1341538,0,1,NA
+"102","Miajlar_Inside","Mia 17",NA,NA,NA,NA,NA,1317989,0,1,NA
+"103","Miajlar_Inside","Mia 18",NA,NA,NA,NA,NA,1294735,0,1,NA
+"104","Miajlar_Inside","Mia 19",NA,NA,NA,NA,NA,1237222,201241,1,NA
+"105","Miajlar_Inside","Mia 2",NA,NA,NA,NA,NA,1249488,311581,1,NA
+"106","Miajlar_Inside","Mia 20",NA,NA,NA,NA,NA,1331898,0,1,NA
+"107","Miajlar_Inside","Mia 21",NA,NA,NA,NA,NA,1356974,0,1,NA
+"108","Miajlar_Inside","Mia 22",NA,NA,NA,NA,NA,1339882,0,1,NA
+"109","Miajlar_Inside","Mia 23",NA,NA,NA,NA,NA,1309651,0,1,NA
+"110","Miajlar_Inside","Mia 24",NA,NA,NA,NA,NA,1357947,0,1,NA
+"111","Miajlar_Inside","Mia 3",NA,NA,NA,NA,NA,1322433,0,1,NA
+"112","Miajlar_Inside","Mia 4",NA,NA,NA,NA,NA,1140031,428701,1,NA
+"113","Miajlar_Inside","Mia 5",2018-04-27 09:34:53,"DOG",1,6,"Day",1295482,160441,1,0
+"114","Miajlar_Inside","Mia 5",2018-04-27 09:34:55,"DOG",1,10,"Day",1295482,160441,1,2
+"115","Miajlar_Inside","Mia 5",2018-04-29 07:54:17,"DOG",1,3,"Day",1295482,160441,1,166762
+"116","Miajlar_Inside","Mia 5",2018-04-29 07:54:19,"DOG",1,1,"Day",1295482,160441,1,2
+"117","Miajlar_Inside","Mia 5",2018-04-29 07:54:21,"DOG",1,1,"Day",1295482,160441,1,2
+"118","Miajlar_Inside","Mia 6",2018-04-28 06:26:26,"DOG",1,3,"Day",1361318,0,1,0
+"119","Miajlar_Inside","Mia 6",2018-04-28 06:26:28,"DOG",1,1,"Day",1361318,0,1,2
+"120","Miajlar_Inside","Mia 6",2018-04-28 06:26:30,"DOG",1,1,"Day",1361318,0,1,2
+"121","Miajlar_Inside","Mia 6",2018-04-28 06:26:32,"DOG",1,1,"Day",1361318,0,1,2
+"122","Miajlar_Inside","Mia 6",2018-05-02 08:53:36,"DOG",1,1,"Day",1361318,0,1,354424
+"123","Miajlar_Inside","Mia 7",NA,NA,NA,NA,NA,1362607,0,1,NA
+"124","Miajlar_Inside","Mia 8",NA,NA,NA,NA,NA,1334526,45421,1,NA
+"125","Miajlar_Inside","Mia 9",NA,NA,NA,NA,NA,1376313,0,1,NA
+"126","Miajlar_Outside","Out 111",NA,NA,NA,NA,NA,1293256,0,1,NA
+"127","Miajlar_Outside","Out 112",NA,NA,NA,NA,NA,1275862,0,1,NA
+"128","Miajlar_Outside","Out 124",NA,NA,NA,NA,NA,973040,543841,1,NA
+"129","Miajlar_Outside","Out 132",NA,NA,NA,NA,NA,1277883,0,1,NA
+"130","Miajlar_Outside","Out 134",2018-05-15 07:11:59,"DOG",1,1,"Day",1231431,0,1,0
+"131","Miajlar_Outside","Out 134",2018-05-15 07:12:03,"DOG",1,1,"Day",1231431,0,1,4
+"132","Miajlar_Outside","Out 134",2018-05-15 07:12:05,"DOG",1,1,"Day",1231431,0,1,2
+"133","Miajlar_Outside","Out 134",2018-05-15 07:12:07,"DOG",1,1,"Day",1231431,0,1,2
+"134","Miajlar_Outside","Out 137",NA,NA,NA,NA,NA,1249846,0,1,NA
+"135","Miajlar_Outside","Out 139",NA,NA,NA,NA,NA,1251639,0,1,NA
+"136","Miajlar_Outside","Out 141",NA,NA,NA,NA,NA,1253324,0,1,NA
+"137","Miajlar_Outside","Out 29",NA,NA,NA,NA,NA,1322315,0,1,NA
+"138","Miajlar_Outside","Out 31",NA,NA,NA,NA,NA,1320384,0,1,NA
+"139","Sudasri_Outside","OUT 316",NA,NA,NA,NA,NA,1026225,1215182,1,NA
+"140","Sudasri_Outside","OUT 317",NA,NA,NA,NA,NA,1105295,0,1,NA
+"141","Miajlar_Outside","Out 32",NA,NA,NA,NA,NA,1288834,0,1,NA
+"142","Sudasri_Outside","OUT 327",2018-01-18 00:58:12,"DOG",1,14,"Night",1631246,1,1,0
+"143","Sudasri_Outside","OUT 328",NA,NA,NA,NA,NA,1631756,182,1,NA
+"144","Sudasri_Outside","OUT 329",NA,NA,NA,NA,NA,1404932,448143,1,NA
+"145","Sudasri_Outside","OUT 330",NA,NA,NA,NA,NA,1628437,0,1,NA
+"146","Sudasri_Outside","OUT 347",NA,NA,NA,NA,NA,978015,1141083,1,NA
+"147","Sudasri_Outside","OUT 348",NA,NA,NA,NA,NA,1628303,0,1,NA
+"148","Sudasri_Outside","OUT 349",NA,NA,NA,NA,NA,1627929,0,1,NA
+"149","Sudasri_Outside","OUT 350",NA,NA,NA,NA,NA,1627039,0,1,NA
+"150","Sudasri_Outside","OUT 371",NA,NA,NA,NA,NA,1626295,1,1,NA
+"151","Miajlar_Outside","Out 42",NA,NA,NA,NA,NA,1238162,0,1,NA
+"152","Miajlar_Outside","Out 44",NA,NA,NA,NA,NA,1194067,0,1,NA
+"153","Miajlar_Outside","Out 46",NA,NA,NA,NA,NA,1206121,182583,1,NA
+"154","Sudasri_Outside","OUT 462",NA,NA,NA,NA,NA,1598431,0,1,NA
+"155","Sudasri_Outside","OUT 472",NA,NA,NA,NA,NA,1597474,0,1,NA
+"156","Sudasri_Outside","OUT 479",NA,NA,NA,NA,NA,1596629,0,1,NA
+"157","Sudasri_Outside","OUT 488",2018-02-12 19:24:33,"DOG",1,1,"Night",604189,0,1,0
+"158","Sudasri_Outside","OUT 506",2018-02-04 00:50:42,"DOG",1,1,"Night",1233898,721802,1,0
+"159","Sudasri_Outside","OUT 529",NA,NA,NA,NA,NA,1639315,0,1,NA
+"160","Miajlar_Outside","Out 55",NA,NA,NA,NA,NA,1228612,0,1,NA
+"161","Sudasri_Outside","OUT 561",NA,NA,NA,NA,NA,1637856,0,1,NA
+"162","Sudasri_Outside","OUT 562",NA,NA,NA,NA,NA,1255120,769201,1,NA
+"163","Miajlar_Outside","Out 57",NA,NA,NA,NA,NA,1252695,0,1,NA
+"164","Miajlar_Outside","Out 59",NA,NA,NA,NA,NA,1295421,0,1,NA
+"165","Sudasri_Outside","OUT 597",2018-02-04 22:18:38,"DOG",1,6,"Night",1636192,62,1,0
+"166","Sudasri_Outside","OUT 597",2018-02-04 22:18:40,"DOG",1,10,"Night",1636192,62,1,2
+"167","Sudasri_Outside","OUT 597",2018-02-04 22:18:42,"DOG",1,10,"Night",1636192,62,1,2
+"168","Sudasri_Outside","OUT 598",NA,NA,NA,NA,NA,1634965,0,1,NA
+"169","Sudasri_Outside","OUT 619",2018-02-15 12:02:44,"DOG",1,3,"Day",1624180,18961,1,0
+"170","Sudasri_Outside","OUT 619",2018-02-15 12:02:46,"DOG",1,6,"Day",1624180,18961,1,2
+"171","Sudasri_Outside","OUT 620",NA,NA,NA,NA,NA,1630393,0,1,NA
+"172","Sudasri_Outside","OUT 627",NA,NA,NA,NA,NA,852070,0,1,NA
+"173","Sudasri_Outside","OUT 628",NA,NA,NA,NA,NA,1627996,241,1,NA
+"174","Sudasri_Outside","OUT 629",2018-02-07 11:53:03,"DOG",1,10,"Day",1629985,0,1,0
+"175","Sudasri_Outside","OUT 629",2018-02-07 11:53:05,"DOG",1,10,"Day",1629985,0,1,2
+"176","Sudasri_Outside","OUT 637",NA,NA,NA,NA,NA,1588255,0,1,NA
+"177","Sudasri_Outside","OUT 638",NA,NA,NA,NA,NA,1310581,551763,1,NA
+"178","Sudasri_Outside","OUT 643",NA,NA,NA,NA,NA,1246633,598921,1,NA
+"179","Sudasri_Outside","OUT 647",NA,NA,NA,NA,NA,1583969,0,1,NA
+"180","Sudasri_Outside","OUT 648",NA,NA,NA,NA,NA,1582287,0,1,NA
+"181","Sudasri_Outside","OUT 649",NA,NA,NA,NA,NA,1550371,1,1,NA
+"182","Rasla_Outside","OUT 656",2018-04-04 07:23:39,"DOG",1,3,"Day",1641637,1621,1,0
+"183","Rasla_Outside","OUT 658",2018-03-14 08:57:57,"DOG",1,6,"Day",1089357,1131721,1,0
+"184","Miajlar_Outside","Out 66",2018-05-03 09:45:49,"DOG",1,3,"Day",1250985,0,1,0
+"185","Rasla_Outside","OUT 662",NA,NA,NA,NA,NA,1603831,0,1,NA
+"186","Rasla_Outside","OUT 665",NA,NA,NA,NA,NA,1601461,1,1,NA
+"187","Miajlar_Outside","Out 67",NA,NA,NA,NA,NA,1249980,0,1,NA
+"188","Rasla_Outside","OUT 671",NA,NA,NA,NA,NA,1533050,242041,1,NA
+"189","Rasla_Outside","OUT 673",NA,NA,NA,NA,NA,1651628,0,1,NA
+"190","Miajlar_Outside","Out 68",NA,NA,NA,NA,NA,1211343,0,1,NA
+"191","Rasla_Outside","OUT 693",NA,NA,NA,NA,NA,1593902,113041,1,NA
+"192","Rasla_Outside","OUT 712",NA,NA,NA,NA,NA,1299602,684301,1,NA
+"193","Rasla_Outside","OUT 715",NA,NA,NA,NA,NA,1648953,0,1,NA
+"194","Rasla_Outside","OUT 721",2018-03-22 07:27:51,"DOG",1,10,"Day",1640466,0,1,0
+"195","Rasla_Outside","OUT 721",2018-03-22 07:27:53,"DOG",2,10,"Day",1640466,0,1,2
+"196","Rasla_Outside","OUT 721",2018-03-22 07:27:55,"DOG",2,10,"Day",1640466,0,1,2
+"197","Rasla_Outside","OUT 721",2018-03-22 07:28:05,"DOG",2,10,"Day",1640466,0,1,10
+"198","Rasla_Outside","OUT 721",2018-03-22 07:28:07,"DOG",2,10,"Day",1640466,0,1,2
+"199","Rasla_Outside","OUT 721",2018-03-22 07:28:09,"DOG",1,10,"Day",1640466,0,1,2
+"200","Rasla_Outside","OUT 721",2018-03-22 07:28:11,"DOG",1,10,"Day",1640466,0,1,2
+"201","Rasla_Outside","OUT 721",2018-03-22 07:28:13,"DOG",1,10,"Day",1640466,0,1,2
+"202","Rasla_Outside","OUT 721",2018-03-22 07:28:17,"DOG",1,16,"Day",1640466,0,1,4
+"203","Rasla_Outside","OUT 721",2018-03-26 06:46:15,"DOG",1,6,"Night",1640466,0,1,343078
+"204","Rasla_Outside","OUT 721",2018-03-26 06:46:17,"DOG",1,6,"Night",1640466,0,1,2
+"205","Rasla_Outside","OUT 721",2018-03-26 06:46:29,"DOG",1,1,"Night",1640466,0,1,12
+"206","Rasla_Outside","OUT 721",2018-03-27 21:58:53,"DOG",1,3,"Night",1640466,0,1,141144
+"207","Rasla_Outside","OUT 721",2018-03-27 22:17:01,"DOG",1,6,"Night",1640466,0,1,1088
+"208","Rasla_Outside","OUT 721",2018-03-27 22:17:03,"DOG",1,6,"Night",1640466,0,1,2
+"209","Rasla_Outside","OUT 721",2018-03-27 22:17:05,"DOG",1,6,"Night",1640466,0,1,2
+"210","Rasla_Outside","OUT 721",2018-03-28 02:17:27,"DOG",1,1,"Night",1640466,0,1,14422
+"211","Rasla_Outside","OUT 721",2018-03-28 02:17:29,"DOG",1,1,"Night",1640466,0,1,2
+"212","Rasla_Outside","OUT 721",2018-03-28 02:17:31,"DOG",1,1,"Night",1640466,0,1,2
+"213","Rasla_Outside","OUT 721",2018-03-28 02:17:49,"DOG",1,1,"Night",1640466,0,1,18
+"214","Rasla_Outside","OUT 721",2018-03-28 02:17:51,"DOG",1,1,"Night",1640466,0,1,2
+"215","Rasla_Outside","OUT 721",2018-03-28 02:17:53,"DOG",1,1,"Night",1640466,0,1,2
+"216","Rasla_Outside","OUT 721",2018-03-28 02:17:55,"DOG",1,1,"Night",1640466,0,1,2
+"217","Rasla_Outside","OUT 721",2018-03-28 02:17:57,"DOG",1,1,"Night",1640466,0,1,2
+"218","Rasla_Outside","OUT 721",2018-03-28 02:17:59,"DOG",1,1,"Night",1640466,0,1,2
+"219","Rasla_Outside","OUT 721",2018-03-28 02:18:01,"DOG",1,1,"Night",1640466,0,1,2
+"220","Rasla_Outside","OUT 721",2018-03-28 02:20:47,"DOG",1,6,"Night",1640466,0,1,166
+"221","Rasla_Outside","OUT 721",2018-03-28 09:12:17,"DOG",1,6,"Day",1640466,0,1,24690
+"222","Rasla_Outside","OUT 721",2018-03-28 09:12:19,"DOG",1,6,"Day",1640466,0,1,2
+"223","Rasla_Outside","OUT 721",2018-03-28 09:12:21,"DOG",1,16,"Day",1640466,0,1,2
+"224","Rasla_Outside","OUT 721",2018-03-28 09:12:23,"DOG",1,16,"Day",1640466,0,1,2
+"225","Rasla_Outside","OUT 721",2018-03-28 09:12:39,"DOG",2,14,"Day",1640466,0,1,16
+"226","Rasla_Outside","OUT 721",2018-03-28 09:12:41,"DOG",2,16,"Day",1640466,0,1,2
+"227","Rasla_Outside","OUT 721",2018-03-28 09:12:43,"DOG",2,16,"Day",1640466,0,1,2
+"228","Rasla_Outside","OUT 721",2018-03-28 09:12:49,"DOG",2,14,"Day",1640466,0,1,6
+"229","Rasla_Outside","OUT 721",2018-03-28 09:12:51,"DOG",2,14,"Day",1640466,0,1,2
+"230","Rasla_Outside","OUT 721",2018-03-28 09:12:53,"DOG",2,16,"Day",1640466,0,1,2
+"231","Rasla_Outside","OUT 721",2018-03-28 09:12:55,"DOG",2,30,"Day",1640466,0,1,2
+"232","Rasla_Outside","OUT 721",2018-03-28 09:14:43,"DOG",2,14,"Day",1640466,0,1,108
+"233","Rasla_Outside","OUT 721",2018-03-28 09:14:45,"DOG",2,14,"Day",1640466,0,1,2
+"234","Rasla_Outside","OUT 721",2018-03-28 09:14:47,"DOG",2,16,"Day",1640466,0,1,2
+"235","Rasla_Outside","OUT 721",2018-03-28 09:14:49,"DOG",2,16,"Day",1640466,0,1,2
+"236","Rasla_Outside","OUT 721",2018-03-31 07:25:35,"DOG",1,10,"Day",1640466,0,1,252646
+"237","Rasla_Outside","OUT 721",2018-03-31 07:25:37,"DOG",1,16,"Day",1640466,0,1,2
+"238","Rasla_Outside","OUT 721",2018-03-31 07:25:39,"DOG",1,16,"Day",1640466,0,1,2
+"239","Rasla_Outside","OUT 721",2018-03-31 07:25:41,"DOG",1,16,"Day",1640466,0,1,2
+"240","Rasla_Outside","OUT 721",2018-04-03 05:05:33,"DOG",1,1,"Night",1640466,0,1,250792
+"241","Rasla_Outside","OUT 721",2018-04-03 06:08:53,"DOG",1,10,"Night",1640466,0,1,3800
+"242","Rasla_Outside","OUT 721",2018-04-03 06:08:55,"DOG",1,10,"Night",1640466,0,1,2
+"243","Rasla_Outside","OUT 721",2018-04-03 06:08:57,"DOG",1,10,"Night",1640466,0,1,2
+"244","Rasla_Outside","OUT 721",2018-04-11 00:10:51,"DOG",1,6,"Night",1640466,0,1,669714
+"245","Rasla_Outside","OUT 721",2018-04-12 16:26:33,"DOG",1,6,"Day",1640466,0,1,144942
+"246","Rasla_Outside","OUT 721",2018-04-12 16:26:35,"DOG",1,6,"Day",1640466,0,1,2
+"247","Rasla_Outside","OUT 730",2018-03-21 18:56:11,"DOG",1,1,"Night",1114377,1054021,1,0
+"248","Rasla_Outside","OUT 730",2018-03-21 18:56:15,"DOG",1,1,"Night",1114377,1054021,1,4
+"249","Rasla_Outside","OUT 730",2018-03-21 18:56:17,"DOG",1,6,"Night",1114377,1054021,1,2
+"250","Rasla_Outside","OUT 730",2018-03-21 18:56:19,"DOG",1,6,"Night",1114377,1054021,1,2
+"251","Rasla_Outside","OUT 730",2018-04-01 04:56:51,"DOG",1,3,"Night",1114377,1054021,1,900032
+"252","Rasla_Outside","OUT 730",2018-04-01 04:56:53,"DOG",1,3,"Night",1114377,1054021,1,2
+"253","Rasla_Outside","OUT 730",2018-04-01 04:56:55,"DOG",1,6,"Night",1114377,1054021,1,2
+"254","Rasla_Outside","OUT 730",2018-04-01 04:56:57,"DOG",1,10,"Night",1114377,1054021,1,2
+"255","Rasla_Outside","OUT 730",2018-04-01 07:40:01,"DOG",1,3,"Day",1114377,1054021,1,9784
+"256","Rasla_Outside","OUT 730",2018-04-01 07:40:03,"DOG",1,3,"Day",1114377,1054021,1,2
+"257","Rasla_Outside","OUT 730",2018-04-01 07:40:05,"DOG",1,6,"Day",1114377,1054021,1,2
+"258","Rasla_Outside","OUT 730",2018-04-01 07:40:33,"DOG",1,6,"Day",1114377,1054021,1,28
+"259","Rasla_Outside","OUT 730",2018-04-01 07:40:35,"DOG",1,6,"Day",1114377,1054021,1,2
+"260","Rasla_Outside","OUT 730",2018-04-01 07:40:37,"DOG",1,6,"Day",1114377,1054021,1,2
+"261","Rasla_Outside","OUT 730",2018-04-01 07:40:39,"DOG",1,6,"Day",1114377,1054021,1,2
+"262","Rasla_Outside","OUT 741",NA,NA,NA,NA,NA,1468617,353701,1,NA
+"263","Rasla_Outside","OUT 744",2018-03-14 23:59:55,"DOG",1,1,"Night",1643852,0,1,0
+"264","Rasla_Outside","OUT 744",2018-03-15 10:23:59,"DOG",1,1,"Day",1643852,0,1,37444
+"265","Rasla_Outside","OUT 744",2018-03-15 10:24:01,"DOG",1,1,"Day",1643852,0,1,2
+"266","Rasla_Outside","OUT 744",2018-03-22 23:54:07,"DOG",1,1,"Night",1643852,0,1,653406
+"267","Rasla_Outside","OUT 744",2018-03-22 23:54:17,"DOG",1,1,"Night",1643852,0,1,10
+"268","Rasla_Outside","OUT 744",2018-03-28 09:43:19,"DOG",1,6,"Day",1643852,0,1,467342
+"269","Rasla_Outside","OUT 744",2018-03-28 09:43:21,"DOG",1,13,"Day",1643852,0,1,2
+"270","Rasla_Outside","OUT 744",2018-04-08 06:38:45,"DOG",2,6,"Day",1643852,0,1,939324
+"271","Rasla_Outside","OUT 744",2018-04-08 06:38:47,"DOG",1,16,"Day",1643852,0,1,2
+"272","Rasla_Outside","OUT 744",2018-04-08 06:38:49,"DOG",1,16,"Day",1643852,0,1,2
+"273","Rasla_Outside","OUT 744",2018-04-08 06:38:51,"DOG",1,16,"Day",1643852,0,1,2
+"274","Rasla_Outside","OUT 744",2018-04-08 06:44:01,"DOG",1,1,"Day",1643852,0,1,310
+"275","Rasla_Outside","OUT 744",2018-04-08 06:44:03,"DOG",1,1,"Day",1643852,0,1,2
+"276","Rasla_Outside","OUT 744",2018-04-08 06:44:07,"DOG",1,1,"Day",1643852,0,1,4
+"277","Rasla_Outside","OUT 744",2018-04-08 06:44:09,"DOG",1,1,"Day",1643852,0,1,2
+"278","Rasla_Outside","OUT 744",2018-04-08 06:44:11,"DOG",1,1,"Day",1643852,0,1,2
+"279","Rasla_Outside","OUT 747",NA,NA,NA,NA,NA,947265,0,1,NA
+"280","Rasla_Outside","OUT 749",NA,NA,NA,NA,NA,1490019,298982,1,NA
+"281","Rasla_Outside","OUT 753",2018-03-30 05:01:30,"DOG",1,1,"Night",1651324,1,1,0
+"282","Rasla_Outside","OUT 753",2018-03-30 05:01:32,"DOG",1,1,"Night",1651324,1,1,2
+"283","Rasla_Outside","OUT 753",2018-03-30 05:01:34,"DOG",1,1,"Night",1651324,1,1,2
+"284","Rasla_Outside","OUT 755",NA,NA,NA,NA,NA,1400064,512643,1,NA
+"285","Rasla_Outside","OUT 758",NA,NA,NA,NA,NA,1610815,84362,1,NA
+"286","Miajlar_Outside","Out 76",2018-05-18 07:10:43,"DOG",1,10,"Day",1272837,0,1,0
+"287","Miajlar_Outside","Out 76",2018-05-18 07:10:45,"DOG",1,16,"Day",1272837,0,1,2
+"288","Miajlar_Outside","Out 76",2018-05-18 07:10:47,"DOG",1,30,"Day",1272837,0,1,2
+"289","Miajlar_Outside","Out 76",2018-05-18 07:10:49,"DOG",1,30,"Day",1272837,0,1,2
+"290","Miajlar_Outside","Out 78",NA,NA,NA,NA,NA,1248818,0,1,NA
+"291","Miajlar_Outside","Out 91",NA,NA,NA,NA,NA,1296587,0,1,NA
+"292","Miajlar_Outside","Out 92",NA,NA,NA,NA,NA,1230240,0,1,NA
+"293","RKVY_Inside","R143",NA,NA,NA,NA,NA,1979236,0,1,NA
+"294","RKVY_Inside","R145",NA,NA,NA,NA,NA,998197,0,1,NA
+"295","RKVY_Inside","R149",NA,NA,NA,NA,NA,1984438,0,1,NA
+"296","RKVY_Inside","R151",NA,NA,NA,NA,NA,1983057,0,1,NA
+"297","RKVY_Inside","R153",NA,NA,NA,NA,NA,1482535,999302,1,NA
+"298","RKVY_Inside","R154",NA,NA,NA,NA,NA,2022723,0,1,NA
+"299","RKVY_Inside","R155",NA,NA,NA,NA,NA,2021116,0,1,NA
+"300","RKVY_Inside","R158",NA,NA,NA,NA,NA,1758930,451861,1,NA
+"301","RKVY_Inside","R159",NA,NA,NA,NA,NA,2013636,61,1,NA
+"302","RKVY_Inside","R160",NA,NA,NA,NA,NA,2024466,0,1,NA
+"303","RKVY_Inside","R161",NA,NA,NA,NA,NA,2017795,0,1,NA
+"304","RKVY_Inside","R162",NA,NA,NA,NA,NA,1336738,1278421,1,NA
+"305","RKVY_Inside","R163",NA,NA,NA,NA,NA,1975416,0,1,NA
+"306","RKVY_Inside","R165",NA,NA,NA,NA,NA,1935932,67261,1,NA
+"307","RKVY_Inside","R166",NA,NA,NA,NA,NA,1889021,0,1,NA
+"308","RKVY_Inside","R167",NA,NA,NA,NA,NA,1677361,692343,1,NA
+"309","RKVY_Inside","R168",2017-03-11 10:18:18,"DOG",1,4.418335901,"Day",1950415,0,1,0
+"310","RKVY_Inside","R169",NA,NA,NA,NA,NA,1975895,0,1,NA
+"311","RKVY_Inside","R170",NA,NA,NA,NA,NA,1986232,0,1,NA
+"312","RKVY_Inside","R172",NA,NA,NA,NA,NA,1068395,292861,1,NA
+"313","RKVY_Inside","R173",NA,NA,NA,NA,NA,824026,121,1,NA
+"314","RKVY_Inside","R173_1",NA,NA,NA,NA,NA,957050,0,1,NA
+"315","RKVY_Inside","R174",NA,NA,NA,NA,NA,1218628,1469761,1,NA
+"316","RKVY_Inside","R175",NA,NA,NA,NA,NA,2029466,0,1,NA
+"317","RKVY_Inside","R177",NA,NA,NA,NA,NA,604938,0,1,NA
+"318","RKVY_Inside","R178",NA,NA,NA,NA,NA,2015453,0,1,NA
+"319","RKVY_Inside","R179",NA,NA,NA,NA,NA,2027429,0,1,NA
+"320","RKVY_Inside","R180",NA,NA,NA,NA,NA,743820,400081,1,NA
+"321","RKVY_Inside","R181",NA,NA,NA,NA,NA,2029428,0,1,NA
+"322","RKVY_Inside","R182",NA,NA,NA,NA,NA,1939773,89401,1,NA
+"323","RKVY_Inside","R183",2017-02-23 09:39:56,"DOG",1,6.376378676,"Day",1983125,0,1,0
+"324","RKVY_Inside","R183",2017-02-23 09:39:58,"DOG",1,NA,"Day",1983125,0,1,2
+"325","RKVY_Inside","R183",2017-02-23 09:40:00,"DOG",1,NA,"Day",1983125,0,1,2
+"326","RKVY_Inside","R183",2017-03-26 07:24:54,"DOG",1,NA,"Day",1983125,0,1,2670294
+"327","RKVY_Inside","R184",2017-03-12 08:04:32,"DOG",1,0.934263797,"Day",2031562,0,1,0
+"328","RKVY_Inside","R185",NA,NA,NA,NA,NA,2036281,0,1,NA
+"329","RKVY_Inside","R186",NA,NA,NA,NA,NA,2027239,0,1,NA
+"330","RKVY_Inside","R187",NA,NA,NA,NA,NA,1981595,0,1,NA
+"331","RKVY_Inside","R188",2017-02-25 03:45:38,"DOG",1,NA,"Night",2028668,0,1,0
+"332","RKVY_Inside","R188",2017-02-25 03:45:40,"DOG",1,NA,"Night",2028668,0,1,2
+"333","RKVY_Inside","R188",2017-02-25 03:45:42,"DOG",1,NA,"Night",2028668,0,1,2
+"334","RKVY_Inside","R188",2017-02-25 03:45:58,"DOG",1,7.611940299,"Night",2028668,0,1,16
+"335","RKVY_Inside","R188",2017-03-09 08:14:34,"DOG",1,NA,"Day",2028668,0,1,1052916
+"336","RKVY_Inside","R188",2017-03-09 08:14:36,"DOG",1,NA,"Day",2028668,0,1,2
+"337","RKVY_Inside","R188",2017-03-09 08:14:38,"DOG",1,NA,"Day",2028668,0,1,2
+"338","RKVY_Inside","R188",2017-03-09 08:14:40,"DOG",1,NA,"Day",2028668,0,1,2
+"339","Ramdeora_Inside","Ram 36",NA,NA,NA,NA,NA,1685370,0,1,NA
+"340","Ramdeora_Inside","Ram 37",NA,NA,NA,NA,NA,1685707,0,1,NA
+"341","Ramdeora_Inside","Ram 38",NA,NA,NA,NA,NA,1685319,0,1,NA
+"342","Ramdeora_Inside","Ram 39",2017-12-26 07:43:36,"DOG",1,6,"Day",1680144,0,1,0
+"343","Ramdeora_Inside","Ram 39",2017-12-26 07:43:38,"DOG",1,6,"Day",1680144,0,1,2
+"344","Ramdeora_Inside","Ram 39",2017-12-26 07:43:40,"DOG",1,6,"Day",1680144,0,1,2
+"345","Ramdeora_Inside","Ram 39",2017-12-26 07:43:52,"DOG",1,6,"Day",1680144,0,1,12
+"346","Ramdeora_Inside","Ram 39",2017-12-26 07:43:54,"DOG",1,6,"Day",1680144,0,1,2
+"347","Ramdeora_Inside","RAM 40",2017-12-26 11:03:43,"DOG",1,6,"Day",1497034,255301,1,0
+"348","Ramdeora_Inside","RAM 40",2017-12-26 11:03:45,"DOG",1,6,"Day",1497034,255301,1,2
+"349","Ramdeora_Inside","RAM 41",NA,NA,NA,NA,NA,1684347,0,1,NA
+"350","Ramdeora_Inside","Ram 42",NA,NA,NA,NA,NA,881092,1604461,1,NA
+"351","Ramdeora_Inside","Ram 43",NA,NA,NA,NA,NA,1234991,891842,1,NA
+"352","Ramdeora_Inside","Ram 44",NA,NA,NA,NA,NA,1670787,0,1,NA
+"353","Ramdeora_Inside","Ram 45",2018-01-07 08:21:43,"DOG",1,10,"Day",1683536,0,1,0
+"354","Ramdeora_Inside","RAM 46",NA,NA,NA,NA,NA,1679024,0,1,NA
+"355","Ramdeora_Inside","RAM 47",NA,NA,NA,NA,NA,1195566,981121,1,NA
+"356","Ramdeora_Inside","Ram 48",NA,NA,NA,NA,NA,1682221,0,1,NA
+"357","Ramdeora_Inside","Ram 49",NA,NA,NA,NA,NA,1591825,0,1,NA
+"358","Ramdeora_Inside","RAM 51",NA,NA,NA,NA,NA,1683804,0,1,NA
+"359","Ramdeora_Inside","Ram 52",NA,NA,NA,NA,NA,1271549,674881,1,NA
+"360","Ramdeora_Inside","Ram 53",NA,NA,NA,NA,NA,1120393,526561,1,NA
+"361","Ramdeora_Inside","Ram 54",NA,NA,NA,NA,NA,875888,1623421,1,NA
+"362","Ramdeora_Inside","Ram 55",NA,NA,NA,NA,NA,1686468,0,1,NA
+"363","Ramdeora_Inside","Ram 56",NA,NA,NA,NA,NA,1380642,593941,1,NA
+"364","Ramdeora_Inside","Ram 57",NA,NA,NA,NA,NA,1687442,0,1,NA
+"365","Ramdeora_Inside","Ram 58",NA,NA,NA,NA,NA,1796002,0,1,NA
+"366","Ramdeora_Inside","Ram 60",NA,NA,NA,NA,NA,1679026,0,1,NA
+"367","Ramdeora_Inside","Ram 61",NA,NA,NA,NA,NA,1680348,0,1,NA
+"368","Ramdeora_Inside","RAM 62",NA,NA,NA,NA,NA,1672755,0,1,NA
+"369","Ramdeora_Inside","Ram 63",NA,NA,NA,NA,NA,1680482,0,1,NA
+"370","Rasla_Inside","RAS 1",NA,NA,NA,NA,NA,1606785,50581,1,NA
+"371","Rasla_Inside","RAS 10",NA,NA,NA,NA,NA,1651787,0,1,NA
+"372","Rasla_Inside","RAS 11",NA,NA,NA,NA,NA,1656067,0,1,NA
+"373","Rasla_Inside","RAS 12",NA,NA,NA,NA,NA,1552360,171782,1,NA
+"374","Rasla_Inside","RAS 13",2018-04-13 07:30:53,"DOG",1,3,"Day",1650510,0,1,0
+"375","Rasla_Inside","RAS 14",NA,NA,NA,NA,NA,1682694,0,1,NA
+"376","Rasla_Inside","RAS 15",NA,NA,NA,NA,NA,1120395,1064103,1,NA
+"377","Rasla_Inside","RAS 16",NA,NA,NA,NA,NA,1623995,0,1,NA
+"378","Rasla_Inside","RAS 17",NA,NA,NA,NA,NA,1649088,0,1,NA
+"379","Rasla_Inside","RAS 2",2018-04-10 06:50:42,"DOG",2,3,"Day",1590986,0,1,0
+"380","Rasla_Inside","RAS 2",2018-04-10 06:50:44,"DOG",2,6,"Day",1590986,0,1,2
+"381","Rasla_Inside","RAS 2",2018-04-10 06:50:46,"DOG",2,6,"Day",1590986,0,1,2
+"382","Rasla_Inside","RAS 3",2018-04-10 07:44:54,"DOG",2,3,"Day",1636364,0,1,0
+"383","Rasla_Inside","RAS 3",2018-04-10 07:44:56,"DOG",2,10,"Day",1636364,0,1,2
+"384","Rasla_Inside","RAS 4",NA,NA,NA,NA,NA,1545077,0,1,NA
+"385","Rasla_Inside","RAS 5",NA,NA,NA,NA,NA,1683814,0,1,NA
+"386","Rasla_Inside","RAS 6",2018-03-24 08:08:32,"DOG",1,3,"Day",1008998,1201562,1,0
+"387","Rasla_Inside","RAS 6",2018-03-28 06:33:50,"DOG",1,6,"Night",1008998,1201562,1,339918
+"388","Rasla_Inside","RAS 7",2018-04-17 06:16:10,"DOG",1,1,"Night",1547180,0,1,0
+"389","Rasla_Inside","RAS 7",2018-04-17 06:16:12,"DOG",1,1,"Night",1547180,0,1,2
+"390","Rasla_Inside","RAS 7",2018-04-17 06:16:14,"DOG",1,1,"Night",1547180,0,1,2
+"391","Rasla_Inside","RAS 7",2018-04-17 06:16:16,"DOG",1,1,"Night",1547180,0,1,2
+"392","Rasla_Inside","RAS 8",2018-04-17 07:51:29,"DOG",1,6,"Day",1549761,0,1,0
+"393","Rasla_Inside","RAS 8",2018-04-17 07:51:31,"DOG",1,6,"Day",1549761,0,1,2
+"394","Rasla_Inside","RAS 8",2018-04-17 07:51:33,"DOG",1,6,"Day",1549761,0,1,2
+"395","Rasla_Inside","RAS 8",2018-04-17 07:51:35,"DOG",1,6,"Day",1549761,0,1,2
+"396","Rasla_Inside","RAS 8",2018-04-17 07:52:01,"DOG",1,3,"Day",1549761,0,1,26
+"397","Rasla_Inside","RAS 8",2018-04-17 07:52:03,"DOG",1,2,"Day",1549761,0,1,2
+"398","Rasla_Inside","RAS 8",2018-04-17 07:52:05,"DOG",1,1,"Day",1549761,0,1,2
+"399","Rasla_Inside","RAS 9",NA,NA,NA,NA,NA,1683900,0,1,NA
+"400","Sudasri_Inside","S100",2017-01-29 08:02:39,"DOG",1,9.415178571,"Day",1634909,0,1,0
+"401","Sudasri_Inside","S100",2017-01-29 08:02:41,"DOG",1,NA,"Day",1634909,0,1,2
+"402","Sudasri_Inside","S104",NA,NA,NA,NA,NA,1516495,0,1,NA
+"403","Sudasri_Inside","S107",NA,NA,NA,NA,NA,1635249,0,1,NA
+"404","Sudasri_Inside","S108",NA,NA,NA,NA,NA,1520216,0,1,NA
+"405","Sudasri_Inside","S109",NA,NA,NA,NA,NA,1114382,1065421,1,NA
+"406","Sudasri_Inside","S110",NA,NA,NA,NA,NA,1646265,0,1,NA
+"407","Sudasri_Inside","S111",NA,NA,NA,NA,NA,140333,0,1,NA
+"408","Sudasri_Inside","S112",NA,NA,NA,NA,NA,1643217,0,1,NA
+"409","Sudasri_Inside","S113",NA,NA,NA,NA,NA,1028179,1148941,1,NA
+"410","Sudasri_Inside","S114",2017-01-28 08:30:10,"DOG",1,6.729610751,"Day",1515099,0,1,0
+"411","Sudasri_Inside","S114",2017-01-28 08:30:12,"DOG",1,NA,"Day",1515099,0,1,2
+"412","Sudasri_Inside","S115",NA,NA,NA,NA,NA,1466207,0,1,NA
+"413","Sudasri_Inside","S116",NA,NA,NA,NA,NA,1466436,0,1,NA
+"414","Sudasri_Inside","S120",NA,NA,NA,NA,NA,311808,0,1,NA
+"415","Sudasri_Inside","S121",NA,NA,NA,NA,NA,1602703,0,1,NA
+"416","Sudasri_Inside","S122",NA,NA,NA,NA,NA,1591646,0,1,NA
+"417","Sudasri_Inside","S123",NA,NA,NA,NA,NA,1565110,0,1,NA
+"418","Sudasri_Inside","S123_1",NA,NA,NA,NA,NA,1564055,0,1,NA
+"419","Sudasri_Inside","S124",NA,NA,NA,NA,NA,1595533,0,1,NA
+"420","Sudasri_Inside","S125",NA,NA,NA,NA,NA,1525818,0,1,NA
+"421","Sudasri_Inside","S126",NA,NA,NA,NA,NA,1519818,0,1,NA
+"422","Sudasri_Inside","S127",NA,NA,NA,NA,NA,1558914,0,1,NA
+"423","Sudasri_Inside","S128",NA,NA,NA,NA,NA,1556209,0,1,NA
+"424","Sudasri_Inside","S130",NA,NA,NA,NA,NA,440403,0,1,NA
+"425","Sudasri_Inside","S131",NA,NA,NA,NA,NA,1522881,0,1,NA
+"426","Sudasri_Inside","S132",NA,NA,NA,NA,NA,1605233,0,1,NA
+"427","Sudasri_Inside","S133",NA,NA,NA,NA,NA,1596842,0,1,NA
+"428","Sudasri_Inside","S134",NA,NA,NA,NA,NA,1567288,0,1,NA
+"429","Sudasri_Inside","S135",NA,NA,NA,NA,NA,1554222,0,1,NA
+"430","Sudasri_Inside","S136",NA,NA,NA,NA,NA,1553560,0,1,NA
+"431","Sudasri_Inside","S137",NA,NA,NA,NA,NA,1603774,0,1,NA
+"432","Sudasri_Inside","S138",NA,NA,NA,NA,NA,1601510,0,1,NA
+"433","Sudasri_Inside","S138_1",NA,NA,NA,NA,NA,535062,0,1,NA
+"434","Sudasri_Inside","S140",2017-01-09 18:04:08,"DOG",1,NA,"Day",1511706,0,1,0
+"435","Sudasri_Inside","S141",NA,NA,NA,NA,NA,1509893,0,1,NA
+"436","Sudasri_Inside","S142",NA,NA,NA,NA,NA,701996,1634221,1,NA
+"437","Sudasri_Inside","S59",NA,NA,NA,NA,NA,510452,2082481,1,NA
+"438","Sudasri_Inside","S64",NA,NA,NA,NA,NA,1592123,0,1,NA
+"439","Sudasri_Inside","S65",NA,NA,NA,NA,NA,1593803,0,1,NA
+"440","Sudasri_Inside","S66",NA,NA,NA,NA,NA,1857738,0,1,NA
+"441","Sudasri_Inside","S74",NA,NA,NA,NA,NA,1644594,0,1,NA
+"442","Sudasri_Inside","S75",NA,NA,NA,NA,NA,1642894,0,1,NA
+"443","Sudasri_Inside","S76",NA,NA,NA,NA,NA,1673372,0,1,NA
+"444","Sudasri_Inside","S77",NA,NA,NA,NA,NA,1599084,0,1,NA
+"445","Sudasri_Inside","S78",NA,NA,NA,NA,NA,1479322,0,1,NA
+"446","Sudasri_Inside","S79",NA,NA,NA,NA,NA,124114,156001,1,NA
+"447","Sudasri_Inside","S86",NA,NA,NA,NA,NA,1646754,0,1,NA
+"448","Sudasri_Inside","S87",NA,NA,NA,NA,NA,984831,1212181,1,NA
+"449","Sudasri_Inside","S88",NA,NA,NA,NA,NA,1641810,0,1,NA
+"450","Sudasri_Inside","S89",NA,NA,NA,NA,NA,1563462,0,1,NA
+"451","Sudasri_Inside","S90",NA,NA,NA,NA,NA,1008487,935461,1,NA
+"452","Sudasri_Inside","S91",NA,NA,NA,NA,NA,1480509,0,1,NA
+"453","Sudasri_Inside","S92",NA,NA,NA,NA,NA,1470623,0,1,NA
+"454","Sudasri_Inside","S97",NA,NA,NA,NA,NA,1634167,0,1,NA
+"455","Sudasri_Inside","S98",NA,NA,NA,NA,NA,1633336,0,1,NA
+"456","Sudasri_Inside","S99",NA,NA,NA,NA,NA,559982,0,1,NA
