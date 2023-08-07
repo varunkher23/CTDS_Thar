@@ -38,12 +38,12 @@ species = Species[7]
 de_data=flatfile%>%filter(Species==species)%>%
   mutate(fill_na=ifelse(is.na(distance),TRUE,FALSE))%>%
   mutate(distance=ifelse(is.na(distance)==T & DN == "Day", 
-                                as.numeric((flatfile%>%filter(Species=="CHINKARA")%>%
+                                as.numeric((flatfile%>%filter(Species==species)%>%
                                    filter(DN=="Day")%>%
                                    summarise(mean=mean(distance,na.rm = T)))$mean),
                                 distance))%>%
   mutate(distance=ifelse(is.na(distance)==T & DN == "Night", 
-                                  as.numeric((flatfile%>%filter(Species=="CHINKARA")%>%
+                                  as.numeric((flatfile%>%filter(Species==species)%>%
                                                 filter(DN=="Night")%>%
                                                 summarise(mean=mean(distance,na.rm = T)))$mean),
                                   distance))%>%
@@ -66,26 +66,30 @@ hist((de_data%>%filter(fill_na==FALSE))$distance,  main="Peak activity data set"
      xlab="Radial distance (m)",labels = T)
 
 {
-conversion <- convert_units("meter", NULL, "square kilometer")
-trunc.list <- list(left=min(breakpoints),right=max(breakpoints))
-mybreaks <- breakpoints
-
-hn01 <- ds(filter(de_data,fill_na==FALSE & diff > 300), transect = "point", key="hn", adjustment = NULL,
-           cutpoints = mybreaks,truncation = trunc.list)#,formula = ~DN)
-gof_ds(hn01)
+  conversion <- convert_units("meter", NULL, "square kilometer")
+  trunc.list <- list(left=min(breakpoints),right=max(breakpoints))
+  mybreaks <- breakpoints
+  
+  hn01 <- ds(filter(de_data,fill_na==FALSE & diff > 300), transect = "point", key="hn", adjustment = NULL,
+             cutpoints = mybreaks,truncation = trunc.list,formula = ~DN)
+  gof_ds(hn01)
 }
 plot(hn01,pdf=T)
 plot(hn01)
 
 {
-detection_matrix_temp=data.frame(Species=species,DN=c("Day","Night"),
-                                 p_mean=predict(hn01,data.frame(DN=c("Day","Night")),se=T)$fitted,
-                                 p_se=predict(hn01,data.frame(DN=c("Day","Night")),se=T)$se.fit)%>%
+  detection_matrix_temp=data.frame(Species=species,DN=c("Day","Night"),
+                                   p_mean=predict(hn01,data.frame(DN=c("Day","Night")),se=T)$fitted,
+                                   p_se=predict(hn01,data.frame(DN=c("Day","Night")),se=T)$se.fit)%>%
     mutate(truncation=list(breakpoints))
-detection_matrix=rbind(detection_matrix,detection_matrix_temp)
+  detection_matrix=rbind(detection_matrix,detection_matrix_temp)
 }
+    
+##### Activity correction
 
-activity_correction_data=de_data%>%
-  filter(diff>10)%>%
-  mutate(timestamp_radian=hms2rad(strftime(DateTimeOriginal,format="%H:%M:%S")))
-activity_species=fitact(activity_correction_data$timestamp_radian,sample="data" )
+{
+  activity_correction_data=de_data%>%
+    filter(diff>10)%>%
+    mutate(timestamp_radian=hms2rad(strftime(DateTimeOriginal,format="%H:%M:%S")))
+  activity_species=fitact(activity_correction_data$timestamp_radian,sample="data" )
+}
