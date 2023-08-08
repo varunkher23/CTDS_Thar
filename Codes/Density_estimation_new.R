@@ -28,25 +28,9 @@ flatfile=read.csv("Input/flatifile_5sec.csv")%>%
   left_join(sun_moon_times)%>%
   mutate(DN="NA")%>%
   mutate(DN=ifelse(DateTimeOriginal>sunrise & DateTimeOriginal<sunset,"Day","Night"))%>%
-  dplyr::select(-sunrise:-set)
-
-detection_matrix=data.frame()
-
-Species = unique(flatfile$Species)
-
-species = Species[7]
-de_data=flatfile%>%filter(Species==species)%>%
+  dplyr::select(-sunrise:-set)%>%group_by(Species,DN)%>%
   mutate(fill_na=ifelse(is.na(distance),TRUE,FALSE))%>%
-  mutate(distance=ifelse(is.na(distance)==T & DN == "Day", 
-                                as.numeric((flatfile%>%filter(Species==species)%>%
-                                   filter(DN=="Day")%>%
-                                   summarise(mean=mean(distance,na.rm = T)))$mean),
-                                distance))%>%
-  mutate(distance=ifelse(is.na(distance)==T & DN == "Night", 
-                                  as.numeric((flatfile%>%filter(Species==species)%>%
-                                                filter(DN=="Night")%>%
-                                                summarise(mean=mean(distance,na.rm = T)))$mean),
-                                  distance))%>%
+  mutate(distance=ifelse(is.na(distance)==T, mean(distance,na.rm = T), distance))%>%
   ungroup()%>%
   rename(Sample.Label=Grid)%>%
   mutate(Area=as.numeric(1))%>%
@@ -60,6 +44,12 @@ de_data=flatfile%>%filter(Species==species)%>%
   filter(!is.na(DateTimeOriginal))
 
 ####detection_function
+
+{detection_matrix=data.frame()
+Species = unique(flatfile$Species)}
+
+species = Species[1]
+de_data=flatfile%>%filter(Species==species)
 
 breakpoints <- c(0.01,2.5,5,7,10)
 hist((de_data%>%filter(fill_na==FALSE))$distance,  main="Peak activity data set",
