@@ -67,7 +67,7 @@ effort= function(record_table,defunct_dates){
 ##### Sample from camera trap images using the effort defined above
 
 
-sample_n=function(detection_data,effort,sampling_interval){
+sample_n=function(detection_data,effort_file,sampling_interval){
   library(tidyverse)
   library(lubridate)
   #read the input data into the format required and assign data to appropriate variables
@@ -75,15 +75,16 @@ sample_n=function(detection_data,effort,sampling_interval){
     mutate(DateTimeOriginal=as.POSIXct(DateTimeOriginal))%>%
     group_by(Region.Label,Grid,Species,DateTimeOriginal)%>%
     summarise(size=max(count),distance=mean(distance))
-  effort=effort%>%
+  effort_file=effort_file%>%
     filter(Grid %in% data$Grid)%>%
     dplyr::select(Grid:effort_end)%>%
     mutate(effort_start=as.POSIXct(effort_start))%>%
     mutate(effort_end=as.POSIXct(effort_end))
   effort_matrix=data.frame()
-  for (i in 1:length(unique(effort$Grid))) {
-    grid=effort$Grid[i]
-    effort2=effort%>%filter(Grid==grid)
+  Grid=unique(effort_file$Grid)
+  for (i in 1:length(Grid)) {
+    grid=Grid[i]
+    effort2=effort_file%>%filter(Grid==grid)
     for (j in 1:nrow(effort2)) {
       effort_temp=data.frame(Grid = grid,
                              DateTimeOriginal = seq(from=effort2$effort_start[j] + sample(0:(sampling_interval-1),1),
