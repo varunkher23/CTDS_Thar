@@ -5,15 +5,16 @@ library(activity)
 library(Distance)
 source("Codes/Functions/Data_preparation.R")
 source("Codes/Functions/get_sunmoon_time.R")
-sampling_interval=5
+sampling_interval=1
 
-#effort=effort("Input/recordtable_master_withdistance_270921","Input/defunct_dates.csv")
-effort=read.csv("Input/effort.csv")%>%
+record_table=read_rds("Input/recordtable_master_withdistance_270921")
+defunct_dates=read.csv("Input/defunct_dates.csv")
+effort=effort(record_table,defunct_dates)%>%
   mutate(effort_start=as.POSIXct(effort_start))%>%
   mutate(effort_end=as.POSIXct(effort_end))%>%
   mutate(hours=as.numeric(effort_end-effort_start,units="hours"))%>%
   group_by(Grid)%>%
-  summarise(effort_hours=sum(hours), effort_secs = sum(hours) * 3600)%>%
+  mutate(effort_hours=sum(hours), effort_secs = sum(hours) * 3600)%>%
   ungroup()%>%
   mutate(sampling_effort= as.integer(effort_secs / sampling_interval))
 #write.csv(effort,"Input/effort.csv")
@@ -21,7 +22,9 @@ effort=read.csv("Input/effort.csv")%>%
 sun_moon_times=get_sunmoon_data(start_date=min(read.csv("Input/effort.csv")$effort_start),
                                 end_date=max(read.csv("Input/effort.csv")$effort_end),lat=27,long=71)
 
-#flatfile=sample_n("Input/data_cleaned_targetanimalsonly","Input/effort.csv",sampling_interval = 5)
+detection_data=read_rds("Input/data_cleaned_targetanimalsonly")
+flatfile=sample_n(detection_data,effort,sampling_interval)
+
 flatfile=read.csv("Input/flatifile_5sec.csv")%>%
   mutate(DateTimeOriginal=as.POSIXct(DateTimeOriginal,tz = "Asia/Calcutta"))%>%
   mutate(Date=as.Date(DateTimeOriginal))%>%

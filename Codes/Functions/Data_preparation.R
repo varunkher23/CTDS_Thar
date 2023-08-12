@@ -2,14 +2,14 @@
 
 #### Calculating effort for each camera trap
 
-effort= function(filepath,defunct_dates){
+effort= function(record_table,defunct_dates){
   #Load packages
   library(tidyverse)
   library(lubridate)
   
   #Load data
-  data=read_rds("Input/recordtable_master_withdistance_270921")
-  defunct=read.csv("Input/defunct_dates.csv")%>%
+  data=record_table
+  defunct=defunct_dates%>%
     mutate(defunct_start=as.POSIXct(defunct_start,tryFormats=c("%Y-%m-%d %H:%M:%OS","%d-%m-%Y %H:%M","%d-%m-%Y %H:%M:%OS")))%>%
     mutate(defunct_end=as.POSIXct(defunct_end,tryFormats=c("%Y-%m-%d %H:%M:%OS","%d-%m-%Y %H:%M","%d-%m-%Y %H:%M:%OS")))%>%
     arrange(Grid,defunct_start)%>%
@@ -67,15 +67,17 @@ effort= function(filepath,defunct_dates){
 ##### Sample from camera trap images using the effort defined above
 
 
-sample_n=function(filepath,effort,sampling_interval){
+sample_n=function(detection_data,effort,sampling_interval){
   library(tidyverse)
   library(lubridate)
   #read the input data into the format required and assign data to appropriate variables
-  data=read_rds("Input/data_cleaned_targetanimalsonly")%>%
+  data=detection_data%>%
     mutate(DateTimeOriginal=as.POSIXct(DateTimeOriginal))%>%
     group_by(Region.Label,Grid,Species,DateTimeOriginal)%>%
     summarise(size=max(count),distance=mean(distance))
-  effort=read.csv("Input/effort.csv")%>%dplyr::select(Grid:effort_end)%>%
+  effort=effort%>%
+    filter(Grid %in% data$Grid)%>%
+    dplyr::select(Grid:effort_end)%>%
     mutate(effort_start=as.POSIXct(effort_start))%>%
     mutate(effort_end=as.POSIXct(effort_end))
   effort_matrix=data.frame()
