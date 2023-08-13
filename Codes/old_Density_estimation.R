@@ -498,6 +498,3 @@ GIB=flatfile%>%
 chinkara%>%
   group_by(DN)%>%
   summarise(mean=median(distance,na.rm=T))
-
-
- 
