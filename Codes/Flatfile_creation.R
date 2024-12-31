@@ -41,5 +41,5 @@ flatfile=sample_n(detection_data,effort_data,sampling_interval)%>%
   filter(!is.na(DateTimeOriginal))
 #write.csv(flatfile,"Input/flatfile_1sec.csv")
 
-record_table=read_rds("Input/data_cleaned_targetanimalsonly")
-record_table%>%filter(Species=="DESERT_CAT")%>%View()
+#record_table=read_rds("Input/data_cleaned_targetanimalsonly")
+#record_table%>%filter(Species=="DESERT_CAT")%>%View()
