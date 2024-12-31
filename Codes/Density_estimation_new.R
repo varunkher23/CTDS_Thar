@@ -18,7 +18,7 @@ conversion <- convert_units("meter", NULL, "square kilometer")
 {density_matrix=data.frame()
 Species = unique(flatfile$Species)}
 
-species=Species[12]
+species=Species[1]
 
 de_data=flatfile%>%filter(Species==species)%>%left_join(effort_data)%>%rename(object=X)
 activity_est=(activity_matrix%>%filter(Species==species))$act
